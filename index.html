@@ -1,0 +1,137 @@
+{%load static%}
+<html>
+    <head>
+        <title> Vaageswari college </title>
+        <link rel="icon" href="{%static 'images/logo.jpeg'%}">
+        <style>
+                body{
+                    margin:0;
+                      background: linear-gradient(rgba(255,255,255,0.7),rgba(0,0,0,0.3)), url("{%static 'images/bgimage.jpeg'%}");
+			          background-size: cover;
+                      color:white;
+                      backdrop-filter:blur(3px);			
+                       }
+                       #header{
+                        height:100px;
+                        width:100%;
+                        display:flex;
+                        align-items:center;
+                        background-color:rgba(0,0,0,0.1);
+                        color:black;
+                       
+                       
+                       }
+                       
+                       #header ul li{
+                             display:inline-block;
+                             margin:0px 40px;
+                             justify-content: right;
+                              }
+                        a{
+                            text-decoration: none;
+                            color:white;
+                        }      
+                       ul li a{
+                            text-decoration:none;
+                            color:black;
+                                }
+                       #body{
+                       height:300px;
+                       width:100%;
+                       background-color:rgba(0,0,0,0.1);
+                       display: flex;
+                       padding: 80px;
+                       align-items: center;
+                       justify-content: center;
+                       margin:5px 0px;
+                       }
+                      
+                       #footer{
+                        height:200px;
+                        width: 100%;
+                        background-color: rgba(255,255,255,0.1);
+                        display: flex;
+                        margin-top: 50px;
+                       }
+                      
+                       #social{
+                        height: 300px;
+                        width: 33.33%;
+                       }
+                      
+                       #Location{
+                        height: 300px;
+                        width: 33.33%;
+                       } 
+                       #Links{
+                        height: 300px;
+                        width: 33.33%;
+                       }
+                       ul li{
+                       list-style: none;
+                       color:black;
+                       }
+                       #social a{
+                       margin:10px;
+                       }
+                       #links ul li{
+                        list-style: none;
+                        
+                       }
+                       #location ul li{
+                        list-style: none;
+                       }
+        </style>
+    </head>
+    <body>
+        
+          <div id="header">
+                  <image src="{%static 'images/logo.jpeg'%}" height"100" width="100"></image>
+                  <h1> Vaageswari College Of Engineering</h1>
+                  <center><ul>
+                    <li><a href=""> Home </a></li>
+                    <li><a href="SL">Student</a></li>
+                    <li><a href="Librarain">Librarain</a></li>
+                </ul>
+            </center>
+                  
+         </div>
+         <div id="body">
+                 <h2 style="height:100px;
+                             background-color:rgba(0,0,0,0.1);
+                             color:black;
+                             margin:balck;
+                             align-items: center;
+                            "> Access Any Book from your mobile or laptop</h2>   
+         </div>
+          <div id ="footer">
+            <div id="Social">
+               <center>
+                <h3>Social</h3>
+                <a href="https://www.facebook.com/login/"><image src="{%static 'images/fb.png'%}" height="30" width="30"></image></a>
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3F__coig_login%3D2"><image src="{%static 'images/insta.png'%}" height="30" width="30"></image></a>
+                <a href="https://www.youtube.com/account"><image src="{%static 'images/youtube.png'%}" height="30" width="30"></image></a>
+                <a href="https://www.linkedin.com/feed/"><image src="{%static 'images/linkedin.png'%}" height="30" width="30"></image></a>
+            </center>
+            </div>
+            <div id="Location">
+              <center>
+                <ul>
+              <li><h4>Karimnagar</h4></li> 
+              <li><h4>Hyderabad</h4></li>
+              </ul> 
+              </center>
+            </div>
+            <div id="Links">
+                <center>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Student.html">Student</a></li>
+                <li><a href="Links.html">Librarain</a></li>
+                </ul>
+                </center>
+            </div>
+               
+         </div>
+    </body>
+</html>
